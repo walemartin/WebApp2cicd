@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp2cicd", "WebApp2cicd\WebApp2cicd.csproj", "{575B58FC-8DEB-4C3C-96E3-5CBE36BA472D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp2cicd.Tests", "WebApp2cicd.Tests\WebApp2cicd.Tests.csproj", "{7516FBDA-10E7-4DCB-A84B-8370912C7BD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{575B58FC-8DEB-4C3C-96E3-5CBE36BA472D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575B58FC-8DEB-4C3C-96E3-5CBE36BA472D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575B58FC-8DEB-4C3C-96E3-5CBE36BA472D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575B58FC-8DEB-4C3C-96E3-5CBE36BA472D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7516FBDA-10E7-4DCB-A84B-8370912C7BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7516FBDA-10E7-4DCB-A84B-8370912C7BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7516FBDA-10E7-4DCB-A84B-8370912C7BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7516FBDA-10E7-4DCB-A84B-8370912C7BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45A35D1F-1EE1-43D4-8425-817DD80DD13E}
+	EndGlobalSection
+EndGlobal
